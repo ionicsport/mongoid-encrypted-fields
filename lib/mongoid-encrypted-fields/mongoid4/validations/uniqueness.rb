@@ -17,8 +17,8 @@ module Mongoid
         end
       end
 
-      alias_method :setup_without_validation, :setup
-      alias_method :setup, :setup_with_validation
+      #alias_method :setup_without_validation, :setup
+      #alias_method :setup, :setup_with_validation
 
     end
   end
